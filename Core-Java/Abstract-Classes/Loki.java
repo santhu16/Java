@@ -1,7 +1,6 @@
 //Child Class Loki extending Parent class Odin.
 
 public class Loki extends Odin {
-
 	@Override
 	public void strength() {
 		System.out.println(" Loki's wit");
