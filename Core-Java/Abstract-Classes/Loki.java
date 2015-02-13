@@ -1,4 +1,4 @@
-//Child Class Loki extending Parent class Odin.
+//Child class Loki extending Parent class Odin.
 
 public class Loki extends Odin {
 	@Override
