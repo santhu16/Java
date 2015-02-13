@@ -16,5 +16,4 @@ public class Loki extends Odin {
 	public void trait() {
 		System.out.println("Cunning and Sarcastic");
 	}
-
 }
