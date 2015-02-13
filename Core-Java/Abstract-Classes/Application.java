@@ -22,6 +22,5 @@ public class Application {
 
 		Thor1.run();
 		Loki1.run();
-
 	}
 }
