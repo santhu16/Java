@@ -1,4 +1,4 @@
-// Creating and writing text files is very similar to reading from text files.
+//Creating and writing text files is very similar to reading from text files.
 //Using try with resources that provides clarity with simple Exception Handling.
 //The following program will create a text file called texter.txt and will write the following information as listed below.
 
