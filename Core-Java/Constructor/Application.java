@@ -1,7 +1,6 @@
 //Constructors: They are mainly used to initialize the state of the variable.
 
 class Constr {
-	
 	String Name;
 	int Age;
 
@@ -35,6 +34,5 @@ public class Application {
 		new Constr(); // invokes Constructor class when an object is created.
 		Constr Constr_2 = new Constr(44); //Invokes the one argument constructor.
 		Constr Constr_3 = new Constr(56, "clyde"); //Invokes the two argument constructor.
-		
 	}
 }
