@@ -11,7 +11,6 @@ public class Application {
 	public static void main(String[] args) {
 
 		File file = new File("texter.txt");
-		// FileReader Fr = new FileReader(file);
 		try (BufferedWriter Br = new BufferedWriter(new FileWriter(file))) {
 
 			Br.write("First Line !"); // Writing to a file
