@@ -66,15 +66,9 @@ public class Application {
 		                                             // Gives the value of Enumerators.
 		System.out.println(Colours.Blue.name());     // Displays the name of enum variable from java.lang.
 		                                             // o/p Blue
-		System.out.println(Colours.Blue); // Displays toString() instead of enum variable.
+		System.out.println(Colours.Blue);            // Displays toString() instead of enum variable.
 		
 		System.out.println(Colours.Blue instanceof Colours); // Compares whether the Blue object belongs to  
 		                                                     // colours class
-		
-		
-		
-		
-
 	}
-
 }
