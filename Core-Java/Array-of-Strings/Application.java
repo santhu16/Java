@@ -2,7 +2,6 @@
 
 public class Application {
 	public static void main(String[] args) {
-
 		// Declare array of (references to) strings.
 		String[] words = new String[3]; // Syntax: String[] variable_name = new String[size];
 		
