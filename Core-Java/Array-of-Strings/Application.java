@@ -42,7 +42,7 @@ public class Application {
 		System.out.println(texts[0]); // When you create a new array object, it
 					      // is always initialized to 0;
 
-		// ... But of course we can set them to actual strings.
+		// But of course we can set them to actual strings.
 		texts[0] = "one";
 		System.out.println(texts[0]);
 		}
