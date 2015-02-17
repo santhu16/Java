@@ -1,7 +1,7 @@
 //Using Abstract classes
 //Parent is an abstract class and all the child classes must implement the parent methods.
 //An Abtract class can have non-abstract methods as well.
-//An abstract class provides no implementations.
+//An abstract class provides no implementations. An abstract methods do not have body.
 //In this example, we consider three entities; Loki, Thor and Odin. Odin is the parent, Thor and Loki are his children respectively.
 
 public class Application {
