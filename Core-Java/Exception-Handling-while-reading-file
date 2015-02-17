@@ -3,7 +3,8 @@
 
 // import java.io.File;
 
-// In this method we are trying to read a file from example.txt.
+// In this method we are trying to read a file from example.txt. Then we try to handle an exception if there is a problem when
+//reading the file.
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
