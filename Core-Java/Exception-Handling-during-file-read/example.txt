@@ -1,0 +1,14 @@
+3
+Cats
+Dogs
+Giraffe 
+
+Lion
+Tiger
+Leopard
+
+Elephant
+Buck
+Elk
+
+and the list goes on ....
