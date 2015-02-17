@@ -7,7 +7,7 @@ class Constr {
 	public Constr() { // A constructor with no Parameters;
 		this(45, "Ronnie"); // Calling a constructor inside a constructor using "this" keyword.
 		                    // Note: Invoking a constructor from another has to be on the first line.
-		System.out.println("Initiazing 2nd constructor !"); // All Constructors must have same name
+		System.out.println("Initializing 2nd constructor !"); // All Constructors must have same name
 		                                                    // Only Parameter changes.
 		Name = "Bernadette";
 		Age = 45;
