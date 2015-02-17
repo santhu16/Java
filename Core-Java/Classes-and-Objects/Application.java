@@ -14,7 +14,7 @@ public class Application {
 
 		Person Person_1 = new Person(); // Syntax for creating a new class object.
 		Person_1.name = "Gautham Honnavara Srinivasan"; // Pointing the name of Person class to a string
-		Person_1.age = 23; // Pointing the age of Person class to an integer value
+		Person_1.age = 33; // Pointing the age of Person class to an integer value
 		Person_1.speak();// Invoking class method
 
 		Person Person_2 = new Person(); // Multiple Class objects can be created for a single class.
