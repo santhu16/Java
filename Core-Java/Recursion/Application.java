@@ -5,8 +5,8 @@ public class Application {
 	public static void main(String[] args) {
 
 		System.out.println("The Factorial of the value(by recursion) is : " + factorial(6)); 
-		// Passes value 4 into the factorial method
-		// Expected output : 4*3*2*1 = 24;
+		// Passes value 6 into the factorial method
+		// Expected output : 6*5*4*3*2*1 = 720;
 	}
 
 	public static int factorial(int value) {
