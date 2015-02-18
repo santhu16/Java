@@ -1,19 +1,18 @@
 
 //An ArrayBlockingQueue follows a FIFO(First in, First out) Method where the first one that enters the queue
 //will be the first one that exits from the queue. Also the start of the queue is called the head and the 
-// end of the queue is called the tail. Elements are added at the end of the queue and exits from the head.
+//end of the queue is called the tail. Elements are added at the end of the queue and exits from the head.
 //Array Blocking Queues have a fixed size.
 
 import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
-
 
 public class Application {
 public static void main(String[] args) {
 	
 	
 /////////////////////////////// Add, Remove and Examine //////////////////////////////////////
-	                          // (Throws Exceptions) //
+	                         // (Throws Exceptions) //
 	
 Queue<Integer> q1 = new ArrayBlockingQueue<Integer>(3); //Syntax for Array Blocking Queue of Size 3
 //Specified inside the brackets.
@@ -66,7 +65,6 @@ Queue<Integer> q1 = new ArrayBlockingQueue<Integer>(3); //Syntax for Array Block
 	
 	/*System.out.println("Peeking values: " + q2.peek());*/
 	System.out.println("Peeking values: " + q2.peek()); //Gives the Head Value.
-
 
 	if(q2.offer(66)==false){
 		System.out.println("Queue is full, This value cannot be offered");
