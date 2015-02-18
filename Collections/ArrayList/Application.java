@@ -5,17 +5,17 @@ import java.util.ArrayList;
 public class Application {
 	public static void main(String[] args) {
 
-		ArrayList<Integer> value = new ArrayList<Integer>(); // Creating a new Arraylist Object.
+		ArrayList<Integer> values = new ArrayList<Integer>(); // Creating a new Arraylist Object.
 
 		// Adding Values to the ArrayList.
 
-		value.add(30);
-		value.add(60);
-		value.add(100);
+		values.add(30);
+		values.add(60);
+		values.add(100);
 
 		// Getting a value from the ArrayList.
 		try {
-			System.out.println(value.get(2) + "\n");
+			System.out.println(values.get(2) + "\n");
 		} catch (IndexOutOfBoundsException e) {
 			System.out.println("Index is out of range: " + e
 					+ ".\nPlease enter a correct index.");
@@ -24,8 +24,8 @@ public class Application {
 		// Getting all values from the Array List
 		// 1st Method
 		System.out.println("Loading First Iteration....\n");
-		for (Integer i = 0; i < value.size(); i++) {
-			System.out.println(value.get(i));
+		for (Integer i = 0; i < values.size(); i++) {
+			System.out.println(values.get(i));
 		}
 		// 2nd Method
 		System.out.println("\nLoading Second Iteration....\n");
@@ -41,8 +41,8 @@ public class Application {
 
 		// Removing Values from ArrayList.
 
-		value.remove(value.size() - 1); // Removes the last value in the array.
-		value.remove(0); // Removes the first value in the array.
+		values.remove(values.size() - 1); // Removes the last value in the array.
+		values.remove(0); // Removes the first value in the array.
 
 		System.out.println("\nLoading Final Iteration....\n");
 		for (Integer value : values) {
