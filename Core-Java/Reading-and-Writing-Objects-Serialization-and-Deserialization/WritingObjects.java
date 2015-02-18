@@ -13,7 +13,7 @@ public class WritingObjects {
 		try(ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream("example.bin"))){ 
 			// Writing file to a location. Writes the objects to a file in binary format.
 			
-			Application.setCount(56);
+			Application.setCount(56); //Setting count to show that static fields cannot be serialized.
 			os.writeObject(application1); // 1st method to write objects into file.
 			os.close(); //Closing file
 			
